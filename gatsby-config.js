@@ -31,7 +31,7 @@ module.exports = {
       resolve: "gatsby-source-wordpress",
       options: {
         minimizeDeprecationNotice: true,
-        baseUrl: "localhost/gatsby/wordpress/",
+        baseUrl: "f211-103-161-86-98.ngrok.io",
         protocol: "http",
         hostingWPCOM: false,
         useACF: false,

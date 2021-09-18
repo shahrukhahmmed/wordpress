@@ -25,16 +25,16 @@ const HeroArea = ()=>{
                 }
             }
         }}`}render={props=>(
-        <div className='hero_area' style={{backgroundImage:`url(${props.allWordpressPage.edges[0]
+        <div className='hero_area' style={{backgroundImage:`url(${props.allWordpressPage.edges[1]
             .node.acf.hero_area.hero_background.source_url})`}}
             >
             <Container>
                 <Row>
                     <Col md={7}>
                         <div className="hero_description">
-                            <h1>{props.allWordpressPage.edges[0].node.acf.hero_area.title}</h1>
-                        <p>{props.allWordpressPage.edges[0].node.acf.hero_area.hero_description}</p>
-                                {props.allWordpressPage.edges[0].node.acf.hero_area.button.map(button_item=>
+                            <h1>{props.allWordpressPage.edges[1].node.acf.hero_area.title}</h1>
+                        <p>{props.allWordpressPage.edges[1].node.acf.hero_area.hero_description}</p>
+                                {props.allWordpressPage.edges[1].node.acf.hero_area.button.map(button_item=>
                                     (<Link to="/about" key={button_item.button} className="global_btn">{button_item.button}</Link>))
                                 }
                         </div>

@@ -12,8 +12,7 @@ const TestSlider = ()=>{
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
-        nav:true,
-        autoPlay:true,
+
     }
 
 
@@ -46,7 +45,7 @@ const TestSlider = ()=>{
                 <Row>
                     <Col md ={12}>
                         <Slider {...settings}>
-                            {props.allWordpressPage.edges[0].node.acf.testimonial.testimonial_item.map(single_item=>{ 
+                            {props.allWordpressPage.edges[1].node.acf.testimonial.testimonial_item.map(single_item=>{ 
                               let val = single_item.star_review;
                               let star_val;
                               switch(val){
