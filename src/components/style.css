@@ -1,0 +1,121 @@
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+    font-size: 50px;
+    line-height: 1.3em;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.2em;
+    font-size: 30px;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    line-height: 1.3em;
+}
+
+p{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+
+ul.nav_menu {
+    list-style: none;
+    padding: 15px 0;
+    margin: 0;
+}
+
+ul.nav_menu li {
+    display: inline-block;
+    margin: 0;
+}
+
+ul.nav_menu li a {
+    padding: 5px 5px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+}
+
+ul.nav_menu li a:hover {
+    color: #3a1be6;
+}
+
+
+.hero_area {
+    padding: 130px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.copyright {
+    padding: 20px 0px;
+}
+
+.blog_btn{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #006E47;
+}
+
+
+.footer_area {
+    box-shadow: 0px 0px 10px 0px rgb(94 107 120 / 19%);
+}
+
+.post_content {
+    margin-bottom: 20px;
+    /* min-height: 159px;*/
+}
+
+.blog_post{
+    padding: 70px 0;
+}
+
+.global_btn{
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 18px 65px 18px 65px;
+    background-color: #006E47;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 6px;
+    margin-top: 30px;
+
+}
+
+a:hover{
+    color: #ffffff !important;
+}
+.testimonial_section{
+    padding: 60px 0;
+}
+.slick-prev:before, .slick-next:before{
+    color: #006e47 !important;
+}
+
+.author img {
+    margin-bottom: 0;
+    border-radius: 100%;
+}
+
+
+h4 {
+    margin-bottom: 0;
+}
